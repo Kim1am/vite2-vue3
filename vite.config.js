@@ -10,6 +10,10 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, 'src'),
       comps: path.resolve(__dirname, 'src/components'),
+      styles: path.resolve(__dirname, 'src/styles'),
+      plugins: path.resolve(__dirname, 'src/plugins'),
+      layouts: path.resolve(__dirname, 'src/layouts'),
+      views: path.resolve(__dirname, 'src/views'),
     },
   },
   plugins: [
